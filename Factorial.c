@@ -22,7 +22,9 @@ int num = 0;
 //prompt user for number input
 printf("Enter a Number and I will Compute it Factorial: ");
 scanf("%d",&num);
+//computing factorial
 int ans = Fact(num);
+//printing result to user
 printf("Factorial of is %d",ans );
 return 0;
 }
